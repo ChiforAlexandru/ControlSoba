@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Interfață Web</title>
+</head>
+<body>
+    <section class="section-header">
+        <h1>Sistem Comandă</h1>
+        <div class="button-div">
+            <button class="btn btn-primary" onclick="displayInformationTemp(); displayInformationCarbon()">Vezi informații</button>
+        </div>
+        <div class="row align-items-start">
+            <div class="col temperatura">
+                <h3>Temperatură/Umiditate</h3>
+                <pre class="response1"></pre>
+            </div>
+            <div class="col co">
+                <h3>Nivel CO</h3>
+                <pre class="response2"></pre>
+            </div>
+        </div>
+
+        <div class="button-div">
+            <button class="btn btn-primary" onclick="moveMotorR()">Crește Temperatura</button>
+            <pre class="response3"></pre>
+        </div>
+        <div class="button-div">
+            <button class="btn btn-primary" onclick="moveMotorL()">Scade Temperatura</button>
+            <pre class="response4"></pre>
+        </div>
+    </section>
+    
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,24 @@
+body{
+    background-color: #f4f2f2;
+}
+
+
+.section-header {
+    background-color: #ffffff;
+    padding: 40px 5%;
+    width: 80%;
+    margin: 4vw auto;
+    border-radius: 20px;
+}
+
+.button-div{
+    padding: 20px 0px;
+}
+
+.row.align-items-start{
+    padding: 20px 0px;
+}
+
+.response3, .response4{
+    padding: 20px, 0px;
+}
